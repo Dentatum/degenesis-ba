@@ -12,5 +12,7 @@
       "discord": ".dentatum",
       "flags": {}
     }
-  ]
+  ],
+  "manifest": "https://raw.githubusercontent.com/Dentatum/degenesis-ba/master/module.json",
+  "download": "https://github.com/Dentatum/degenesis-ba/archive/refs/heads/master.zip"
 }
