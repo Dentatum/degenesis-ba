@@ -1,29 +1,41 @@
 {
-  "id": "degenesis-ba",
-  "title": "Degenesis: Rebirth - Black Atlantic",
-  "version": "0.1",
-  "compatibility": {
-    "minimum": "11",
-    "verified": "11"
-  },
-  "authors": [
-    {
-      "name": "Dentatum",
-      "discord": ".dentatum",
-      "flags": {}
-    }
-  ],
-  "packs": [
-    {
-      "name": "actors",
-      "label": "BA - Actors",
-      "path": "./packs/ba-actors",
-	  "banner": "/modules/degenesis-ba/packs/assets/banners/ba-actors.png",
-      "system": "degenesis",
-      "type": "Actor",
-      "entity": "ba-actors"
-    }
-  ],
-  "manifest": "https://raw.githubusercontent.com/Dentatum/degenesis-ba/master/module.json",
-  "download": "https://github.com/Dentatum/degenesis-ba/archive/refs/heads/master.zip"
+    "id": "degenesis-ba",
+    "title": "Degenesis: Rebirth - Black Atlantic",
+    "version": "0.2",
+    "compatibility": {
+        "minimum": "11",
+        "verified": "11"
+    },
+    "relationships": {
+        "systems": [
+            {
+                "id": "degenesis",
+                "type": "system",
+                "compatibility": {
+                    "minimum": "0.6.1.2",
+                    "verified": "0.6.2.1"
+                }
+            }
+        ]
+    },
+    "authors": [
+        {
+            "name": "Dentatum",
+            "discord": ".dentatum",
+            "flags": {}
+        }
+    ],
+    "packs": [
+        {
+            "name": "actors",
+            "label": "BA - Actors",
+            "path": "./packs/ba-actors",
+            "banner": "/modules/degenesis-ba/packs/assets/banners/ba-actors.png",
+            "system": "degenesis",
+            "type": "Actor",
+            "entity": "ba-actors"
+        }
+    ],
+    "manifest": "https://raw.githubusercontent.com/Dentatum/degenesis-ba/master/module.json",
+    "download": "https://github.com/Dentatum/degenesis-ba/archive/refs/heads/master.zip"
 }
